@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI FAQ Assistant</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- HEADER -->
+        <header class="header">
+
+            <div class="logo">
+                🤖
+            </div>
+
+            <div class="header-text">
+                <h1>AI FAQ Assistant</h1>
+                <p>Artificial Intelligence Knowledge Base</p>
+            </div>
+
+            <div class="status">
+                <span class="status-dot"></span>
+                Online
+            </div>
+
+        </header>
+
+
+        <!-- CHAT AREA -->
+        <main class="chat-container">
+
+            <div id="chatBox" class="chat-box">
+
+                <!-- Welcome Message -->
+                <div class="message bot-message">
+
+                    <div class="avatar">
+                        🤖
+                    </div>
+
+                    <div class="message-content">
+
+                        <span class="sender">
+                            BOT
+                        </span>
+
+                        <div class="bubble">
+
+                            Hello! 👋
+                            <br><br>
+
+                            I'm your AI FAQ assistant.
+                            Ask me anything about Artificial Intelligence,
+                            Machine Learning, Deep Learning or NLP.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- INPUT AREA -->
+            <div class="input-area">
+
+                <input
+                    type="text"
+                    id="questionInput"
+                    placeholder="Type your question..."
+                    autocomplete="off"
+                >
+
+                <button id="sendButton">
+                    Send
+                </button>
+
+            </div>
+
+
+            <!-- CLEAR BUTTON -->
+            <button id="clearButton" class="clear-button">
+                🗑 Clear Chat
+            </button>
+
+        </main>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

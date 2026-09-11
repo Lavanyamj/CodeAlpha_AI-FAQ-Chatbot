@@ -1,0 +1,50 @@
+[
+    {
+        "question": "What is artificial intelligence?",
+        "answer": "Artificial Intelligence (AI) is a technology that enables computers and machines to perform tasks that normally require human intelligence."
+    },
+    {
+        "question": "What is machine learning?",
+        "answer": "Machine Learning is a branch of Artificial Intelligence that allows computers to learn patterns from data and make predictions or decisions."
+    },
+    {
+        "question": "What is deep learning?",
+        "answer": "Deep Learning is a subset of Machine Learning that uses artificial neural networks with multiple layers to learn complex patterns from large amounts of data."
+    },
+    {
+        "question": "What is natural language processing?",
+        "answer": "Natural Language Processing (NLP) is a field of Artificial Intelligence that helps computers understand, process and generate human language."
+    },
+    {
+        "question": "What are the types of artificial intelligence?",
+        "answer": "The commonly discussed types of AI are Narrow AI, General AI and Super AI. Narrow AI is designed for specific tasks, while General AI and Super AI describe more advanced theoretical forms."
+    },
+    {
+        "question": "What is Python?",
+        "answer": "Python is a popular programming language widely used for web development, data science, Machine Learning, Artificial Intelligence and automation."
+    },
+    {
+        "question": "What is a neural network?",
+        "answer": "A neural network is a machine learning model inspired by the structure of the human brain. It consists of interconnected nodes that learn patterns from data."
+    },
+    {
+        "question": "What is computer vision?",
+        "answer": "Computer Vision is a field of Artificial Intelligence that enables computers to understand and analyze images and videos."
+    },
+    {
+        "question": "What is generative AI?",
+        "answer": "Generative AI is a type of Artificial Intelligence that can create new content such as text, images, audio, video and code."
+    },
+    {
+        "question": "What is data science?",
+        "answer": "Data Science combines statistics, programming and machine learning techniques to extract useful information and insights from data."
+    },
+    {
+        "question": "What is an AI model?",
+        "answer": "An AI model is a computational system trained using data to recognize patterns and produce predictions, classifications or other outputs."
+    },
+    {
+        "question": "How does machine learning work?",
+        "answer": "Machine Learning works by training a model on data so that it can learn patterns and use those patterns to make predictions on new data."
+    }
+]
